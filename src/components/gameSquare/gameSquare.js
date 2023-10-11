@@ -76,8 +76,7 @@ function GameSquare(props) {
   return (
     <div>
       <div className="container">
-      <h1>This is your game square component</h1>
-        <h2 id="playerText">{wontText}</h2>
+        <h1 id="playerText">{wontText}</h1>
         <button id="restartBtn" onClick={restartGame}>Restart</button>
         <div id="gameboard">
           <div className="box" id="0" onClick={boxClicked}></div>
